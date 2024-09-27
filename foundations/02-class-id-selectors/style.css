@@ -1,4 +1,4 @@
-.para {
+.odd {
     background-color: rgb(240, 117, 117);
     font-family: Verdana, "DejaVu Sans", sans-serif
 }
@@ -8,12 +8,11 @@
     font-size: 36px;
 }
 
-.three {
+.font {
     font-size: 24px;
 }
 
 #four {
     background-color: greenyellow;
-    font-size: 24px;
     font-weight: bold;
 }
