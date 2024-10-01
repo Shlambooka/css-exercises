@@ -5,10 +5,9 @@ body {
 
 .card {
   background: #fff;
-  border-color: #fff;
-  border-style: solid;
-  margin: 40px auto;
+  margin: 16px auto;
   padding: 8px 8px 0px 8px;
+  /* solution only adds padding: 8px: */
   width: 400px;
 }
 
@@ -16,17 +15,21 @@ body {
   background: #e3f4ff;
   font-size: 16pt;
   margin: 0px 0px 8px 0px;
+  /* solution uses margin-bottom */
   padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
   padding: 16px 8px;
+  /* solution adds margin-bottom: 8px; 
+  which I suppose is a bit more minimalistic */
 }
 
 .button-container {
   background: #e3f4ff;
   margin: 8px 0px 8px 0px;
+  /* solution does not add this above margin */
   padding: 8px;
   text-align: center;
 }
@@ -35,6 +38,7 @@ button {
   background: white;
   border: 1px solid #eee;
   display: block;
-  margin: auto;
+  margin: 0 auto;
+  /* add the 0 above */
   padding: 8px 24px;
 }
